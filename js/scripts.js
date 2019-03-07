@@ -65,3 +65,5 @@ var end = new Date('June 8, 2019 12:00:00'); //create a variable named 'end' and
     }
 
     timer = setInterval(showRemaining, 1000); //set timer variable to hold the result of the showRemaining function
+
+    //adding a comment literally just to test
