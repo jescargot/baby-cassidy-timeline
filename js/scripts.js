@@ -12,21 +12,17 @@ var password = document.getElementById("userInput").value;
 
 if (password === "freindsandfamily") {
   // block of code to be executed if condition1 is true
-  //location.assign("http://google.com");
-
-	location.assign("http://google.com");
+    location.assign("http://google.com");
 }
 
 else if (password === "secret") {
   // block of code to be executed if the condition1 is false and condition2 is true
-  //location.assign("http://bing.com");
-  
-	location.assign("http://bing.com");
+    location.assign("http://bing.com");
 }
 
 else {
   // block of code to be executed if the condition1 is false and condition2 is false
-	console.log(location)
+	alert("Password not found! :(")
 }
 
 }
